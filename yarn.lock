@@ -6521,7 +6521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"docusaurus-plugin-typedoc@npm:^0.16.3":
+"docusaurus-plugin-typedoc@npm:^0.16.4":
   version: 0.16.4
   resolution: "docusaurus-plugin-typedoc@npm:0.16.4"
   peerDependencies:
@@ -15653,18 +15653,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc-plugin-markdown@npm:^3.11.3":
-  version: 3.11.5
-  resolution: "typedoc-plugin-markdown@npm:3.11.5"
+"typedoc-plugin-markdown@npm:^3.11.7":
+  version: 3.11.7
+  resolution: "typedoc-plugin-markdown@npm:3.11.7"
   dependencies:
     handlebars: ^4.7.7
   peerDependencies:
     typedoc: ">=0.22.0"
-  checksum: 4f76b6933e13071c82c1e4edfbc86a0eaca4c22a31ba07521ddd61feb6f60e3340c71bff7405ab02948ee59f1884c20bdade681e4b5f8af934afa3dbbe906266
+  checksum: ae21f898edf3d68a33d723ca149bb6d81485bc63bad1eb215f0af28c56672b5cfb329bf2c7a4e9e3b9215a46afaf306238d481abca6f6d9f1f4e84f1b6a698cd
   languageName: node
   linkType: hard
 
-"typedoc@npm:^0.22.8":
+"typedoc@npm:^0.22.9":
   version: 0.22.9
   resolution: "typedoc@npm:0.22.9"
   dependencies:
@@ -16572,14 +16572,14 @@ __metadata:
     "@tsconfig/docusaurus": ^1.0.4
     "@types/react-codesandboxer": ^3.1.1
     date-fns: ^2.22.1
-    docusaurus-plugin-typedoc: ^0.16.3
+    docusaurus-plugin-typedoc: ^0.16.4
     raw-loader: ^4.0.2
     react: ^17.0.2
     react-codesandboxer: ^3.1.5
     react-day-picker: "workspace:packages/react-day-picker"
     react-dom: ^17.0.2
-    typedoc: ^0.22.8
-    typedoc-plugin-markdown: ^3.11.3
+    typedoc: ^0.22.9
+    typedoc-plugin-markdown: ^3.11.7
     typescript: ~4.2.4
   languageName: unknown
   linkType: soft
