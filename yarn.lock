@@ -3474,15 +3474,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-codesandboxer@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@types/react-codesandboxer@npm:3.1.1"
-  dependencies:
-    "@types/react": "*"
-  checksum: 24a8585f6c2a8931d55fb6dd9286ebdabcf969338d94d2ea34424412ad13bec355b19e5b651618ab80ff2f3c18e28ff6226fd33f9cbbf05021d04a20883bc00e
-  languageName: node
-  linkType: hard
-
 "@types/react-dom@npm:>=16.9.0":
   version: 17.0.11
   resolution: "@types/react-dom@npm:17.0.11"
@@ -4633,16 +4624,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-runtime@npm:^6.26.0":
-  version: 6.26.0
-  resolution: "babel-runtime@npm:6.26.0"
-  dependencies:
-    core-js: ^2.4.0
-    regenerator-runtime: ^0.11.0
-  checksum: 8aeade94665e67a73c1ccc10f6fd42ba0c689b980032b70929de7a6d9a12eb87ef51902733f8fefede35afea7a5c3ef7e916a64d503446c1eedc9e3284bd3d50
-  languageName: node
-  linkType: hard
-
 "bail@npm:^1.0.0":
   version: 1.0.5
   resolution: "bail@npm:1.0.5"
@@ -5348,19 +5329,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codesandboxer@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "codesandboxer@npm:1.0.3"
-  dependencies:
-    babel-runtime: ^6.26.0
-    form-data: ^2.3.2
-    isomorphic-unfetch: ^2.0.0
-    lz-string: ^1.4.4
-    path-browserify: ^1.0.0
-  checksum: 20ba48e055cbad0dec56c7e664f9ca0a7ff6433e3b22586020f131e6f6780efdca4f7b4c95fa7d4c2d485b3c7f5be9028022458e8e84bd0eb6a03dbf9f1bdc88
-  languageName: node
-  linkType: hard
-
 "collapse-white-space@npm:^1.0.2":
   version: 1.0.6
   resolution: "collapse-white-space@npm:1.0.6"
@@ -5438,7 +5406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"combined-stream@npm:^1.0.6, combined-stream@npm:^1.0.8":
+"combined-stream@npm:^1.0.8":
   version: 1.0.8
   resolution: "combined-stream@npm:1.0.8"
   dependencies:
@@ -5676,13 +5644,6 @@ __metadata:
   version: 3.19.1
   resolution: "core-js-pure@npm:3.19.1"
   checksum: b6d593ce2ac9da1adf8da3efc0b9cca8cc969d7d758c511db877a41d92216dbdf7a2341f89c07516bf0da1ce8b994e103f604ab37ca31379a35512c05d291804
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^2.4.0":
-  version: 2.6.12
-  resolution: "core-js@npm:2.6.12"
-  checksum: 44fa9934a85f8c78d61e0c8b7b22436330471ffe59ec5076fe7f324d6e8cf7f824b14b1c81ca73608b13bdb0fef035bd820989bf059767ad6fa13123bb8bd016
   languageName: node
   linkType: hard
 
@@ -7691,17 +7652,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"form-data@npm:^2.3.2":
-  version: 2.5.1
-  resolution: "form-data@npm:2.5.1"
-  dependencies:
-    asynckit: ^0.4.0
-    combined-stream: ^1.0.6
-    mime-types: ^2.1.12
-  checksum: 5134ada56cc246b293a1ac7678dba6830000603a3979cf83ff7b2f21f2e3725202237cfb89e32bcb38a1d35727efbd3c3a22e65b42321e8ade8eec01ce755d08
-  languageName: node
-  linkType: hard
-
 "form-data@npm:^3.0.0":
   version: 3.0.1
   resolution: "form-data@npm:3.0.1"
@@ -9543,16 +9493,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isomorphic-unfetch@npm:^2.0.0":
-  version: 2.1.1
-  resolution: "isomorphic-unfetch@npm:2.1.1"
-  dependencies:
-    node-fetch: ^2.1.2
-    unfetch: ^3.1.0
-  checksum: b479f4dba835aeddedde5ee129bf261efc12c6f466b30338667fbec75a1bef5ec81a73287543dc99f99754638127b7d2c299ef95b98d67f59b44cf4a57f61f93
-  languageName: node
-  linkType: hard
-
 "istanbul-lib-coverage@npm:^3.0.0, istanbul-lib-coverage@npm:^3.2.0":
   version: 3.2.0
   resolution: "istanbul-lib-coverage@npm:3.2.0"
@@ -10614,13 +10554,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.isequal@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "lodash.isequal@npm:4.5.0"
-  checksum: da27515dc5230eb1140ba65ff8de3613649620e8656b19a6270afe4866b7bd461d9ba2ac8a48dcc57f7adac4ee80e1de9f965d89d4d81a0ad52bb3eec2609644
-  languageName: node
-  linkType: hard
-
 "lodash.map@npm:^4.4.0":
   version: 4.6.0
   resolution: "lodash.map@npm:4.6.0"
@@ -10642,7 +10575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.pick@npm:^4.2.1, lodash.pick@npm:^4.4.0":
+"lodash.pick@npm:^4.2.1":
   version: 4.4.0
   resolution: "lodash.pick@npm:4.4.0"
   checksum: 2c36cab7da6b999a20bd3373b40e31a3ef81fa264f34a6979c852c5bc8ac039379686b27380f0cb8e3781610844fafec6949c6fbbebc059c98f8fa8570e3675f
@@ -11368,15 +11301,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.1.2":
-  version: 2.6.6
-  resolution: "node-fetch@npm:2.6.6"
-  dependencies:
-    whatwg-url: ^5.0.0
-  checksum: ee8290626bdb73629c59722b75dcf4b9b6a67c1ed7eb9102e368479c4a13b56a48c2bb3ad71571e378e98c8b2c64c820e11f9cd39e4b8557dd138ad571ef9a42
-  languageName: node
-  linkType: hard
-
 "node-forge@npm:^0.10.0":
   version: 0.10.0
   resolution: "node-forge@npm:0.10.0"
@@ -12012,13 +11936,6 @@ __metadata:
   version: 0.1.1
   resolution: "pascalcase@npm:0.1.1"
   checksum: f83681c3c8ff75fa473a2bb2b113289952f802ff895d435edd717e7cb898b0408cbdb247117a938edcbc5d141020909846cc2b92c47213d764e2a94d2ad2b925
-  languageName: node
-  linkType: hard
-
-"path-browserify@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "path-browserify@npm:1.0.1"
-  checksum: c6d7fa376423fe35b95b2d67990060c3ee304fc815ff0a2dc1c6c3cfaff2bd0d572ee67e18f19d0ea3bbe32e8add2a05021132ac40509416459fffee35200699
   languageName: node
   linkType: hard
 
@@ -13156,18 +13073,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-codesandboxer@npm:^3.1.5":
-  version: 3.1.5
-  resolution: "react-codesandboxer@npm:3.1.5"
-  dependencies:
-    codesandboxer: ^1.0.3
-    lodash.isequal: ^4.5.0
-    lodash.pick: ^4.4.0
-    react-node-resolver: ^1.0.1
-  checksum: e54d5c4a98251a9d8ba94a5b433472baa0a3e9701feef0558494e974d414410513bb936d517912535ce0e6cb069eea6e30e42399be81c491ff8c5905699f83fa
-  languageName: node
-  linkType: hard
-
 "react-day-picker@workspace:packages/react-day-picker":
   version: 0.0.0-use.local
   resolution: "react-day-picker@workspace:packages/react-day-picker"
@@ -13389,13 +13294,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-node-resolver@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "react-node-resolver@npm:1.0.1"
-  checksum: a09a787610ff59b2c6a8d61ae71da83eeb5fc42ca2ecbfdebcefb36926fca14c26321225e1395acb003f777c95af0562a75bc36ea1f50366a19a7c674c26c280
-  languageName: node
-  linkType: hard
-
 "react-router-config@npm:^5.1.1":
   version: 5.1.1
   resolution: "react-router-config@npm:5.1.1"
@@ -13571,13 +13469,6 @@ __metadata:
   version: 1.4.2
   resolution: "regenerate@npm:1.4.2"
   checksum: 3317a09b2f802da8db09aa276e469b57a6c0dd818347e05b8862959c6193408242f150db5de83c12c3fa99091ad95fb42a6db2c3329bfaa12a0ea4cbbeb30cb0
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.11.0":
-  version: 0.11.1
-  resolution: "regenerator-runtime@npm:0.11.1"
-  checksum: 3c97bd2c7b2b3247e6f8e2147a002eb78c995323732dad5dc70fac8d8d0b758d0295e7015b90d3d444446ae77cbd24b9f9123ec3a77018e81d8999818301b4f4
   languageName: node
   linkType: hard
 
@@ -15365,13 +15256,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tr46@npm:~0.0.3":
-  version: 0.0.3
-  resolution: "tr46@npm:0.0.3"
-  checksum: 726321c5eaf41b5002e17ffbd1fb7245999a073e8979085dacd47c4b4e8068ff5777142fc6726d6ca1fd2ff16921b48788b87225cbc57c72636f6efa8efbffe3
-  languageName: node
-  linkType: hard
-
 "trim-trailing-lines@npm:^1.0.0":
   version: 1.1.4
   resolution: "trim-trailing-lines@npm:1.1.4"
@@ -15689,13 +15573,6 @@ __metadata:
     has-symbols: ^1.0.2
     which-boxed-primitive: ^1.0.2
   checksum: 89d950e18fb45672bc6b3c961f1e72c07beb9640c7ceed847b571ba6f7d2af570ae1a2584cfee268b9d9ea1e3293f7e33e0bc29eaeb9f8e8a0bab057ff9e6bba
-  languageName: node
-  linkType: hard
-
-"unfetch@npm:^3.1.0":
-  version: 3.1.2
-  resolution: "unfetch@npm:3.1.2"
-  checksum: 5529f0021c51ffa52b5eb36b7b7824f5cbb2167c4a7a09365d071af7534a87a7968a93f1d71f8cdb1aab930af5692af10f53521100999021a05bfb738ff859ab
   languageName: node
   linkType: hard
 
@@ -16292,13 +16169,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webidl-conversions@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "webidl-conversions@npm:3.0.1"
-  checksum: c92a0a6ab95314bde9c32e1d0a6dfac83b578f8fa5f21e675bc2706ed6981bc26b7eb7e6a1fab158e5ce4adf9caa4a0aee49a52505d4d13c7be545f15021b17c
-  languageName: node
-  linkType: hard
-
 "webidl-conversions@npm:^5.0.0":
   version: 5.0.0
   resolution: "webidl-conversions@npm:5.0.0"
@@ -16547,12 +16417,10 @@ __metadata:
     "@docusaurus/preset-classic": 2.0.0-beta.9
     "@docusaurus/theme-classic": ^2.0.0-beta.9
     "@tsconfig/docusaurus": ^1.0.4
-    "@types/react-codesandboxer": ^3.1.1
     date-fns: ^2.22.1
     docusaurus-plugin-typedoc: ^0.16.4
     raw-loader: ^4.0.2
     react: ^17.0.2
-    react-codesandboxer: ^3.1.5
     react-day-picker: "workspace:packages/react-day-picker"
     react-dom: ^17.0.2
     typedoc: ^0.22.9
@@ -16592,16 +16460,6 @@ __metadata:
   version: 2.3.0
   resolution: "whatwg-mimetype@npm:2.3.0"
   checksum: 23eb885940bcbcca4ff841c40a78e9cbb893ec42743993a42bf7aed16085b048b44b06f3402018931687153550f9a32d259dfa524e4f03577ab898b6965e5383
-  languageName: node
-  linkType: hard
-
-"whatwg-url@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "whatwg-url@npm:5.0.0"
-  dependencies:
-    tr46: ~0.0.3
-    webidl-conversions: ^3.0.0
-  checksum: b8daed4ad3356cc4899048a15b2c143a9aed0dfae1f611ebd55073310c7b910f522ad75d727346ad64203d7e6c79ef25eafd465f4d12775ca44b90fa82ed9e2c
   languageName: node
   linkType: hard
 
