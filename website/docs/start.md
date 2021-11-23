@@ -14,14 +14,6 @@ npm install react-day-picker@next
 
 2. Import DayPicker and include the DayPicker CSS in your App / Component:
 
-```ts
-import { DayPicker } from 'react-day-picker';
-
-export function MyApp() {
-  return <DayPicker />;
-}
-```
-
 ```include
 start.tsx
 ```
