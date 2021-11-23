@@ -1,5 +1,5 @@
-import OriginalCodeBlock from '@theme/CodeBlock';
 import * as React from 'react';
+import OriginalCodeBlock from '../OriginalCodeBlock';
 
 import styles from './styles.module.css';
 

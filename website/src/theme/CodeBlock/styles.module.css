@@ -1,15 +1,10 @@
-.output table thead tr {
-  /* remove docusaurus styling */
-  all: revert;
-}
+
 
 .root {
   justify-content: center;
   background-color: var(--menu-background);
   align-items: stretch;
-  /* border: 1px solid red; */
   border-radius: var(--ifm-global-radius);
-  /* border-bottom-left-radius: 0; */
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
@@ -45,16 +40,15 @@
 }
 
 .output {
-  /* min-width: 320px; */
   padding: 1.4em;
   background-color: var(--menu-background);
 }
 
 .output>div {
+  min-height: 350px;
   display: flex;
   justify-content: center;
   background-color: var(--ifm-background-color);
-  /* min-width: 320px; */
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
